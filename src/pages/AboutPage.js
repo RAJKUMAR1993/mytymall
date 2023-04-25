@@ -1,35 +1,35 @@
-import React from 'react'
-import styled from 'styled-components'
-import { PageHero } from '../components'
-import aboutImg from '../assets/hero-bcg.jpeg'
+import React from "react";
+import styled from "styled-components";
+import { PageHero } from "../components";
+import aboutImg from "../assets/hero-bcg.jpeg";
 const AboutPage = () => {
   return (
     <main>
-      <PageHero title='about' />
-      <Wrapper className='page section section-center'>
-        <img src={aboutImg} alt='nice desk' />
+      <PageHero title="about" />
+      <Wrapper className="page section section-center">
+        <img src={aboutImg} alt="nice desk" />
         <article>
-          <div className='title'>
+          <div className="title">
             <h2>our story</h2>
-            <div className='underline'></div>
+            <div className="underline"></div>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-            accusantium sapiente tempora sed dolore esse deserunt eaque
-            excepturi, delectus error accusamus vel eligendi, omnis beatae.
-            Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque
-            dolore, obcaecati incidunt sequi blanditiis est exercitationem
-            molestiae delectus saepe odio eligendi modi porro eaque in libero
-            minus unde sapiente consectetur architecto. Ullam rerum, nemo iste
-            ex, eaque perspiciatis nisi, eum totam velit saepe sed quos
-            similique amet. Ex, voluptate accusamus nesciunt totam vitae esse
-            iste.
+            Afashion season can be defined as much by the people on the catwalk
+            as it can by the clothes they are wearing. This time around, a key
+            moment came at the end of Marc Jacobs’ New York show, when an almost
+            makeup-free Christy Turlington made a rare return to the catwalk,
+            aged 50 (she also stars, with the designer himself, in the label’s
+            AW ad campaign), where the average catwalk model is around 18. A few
+            days later, Simone Rocha arguably upped the ante. The 32-year-old’s
+            show – in part inspired by Louise Bourgeois, who lived until she was
+            98 – featured models in their 30s and 40s, including cult favourite
+            Jeny Howorth and actor Chloë Sevigny.
           </p>
         </article>
       </Wrapper>
     </main>
-  )
-}
+  );
+};
 const Wrapper = styled.section`
   display: grid;
   gap: 4rem;
@@ -56,5 +56,5 @@ const Wrapper = styled.section`
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
   }
-`
-export default AboutPage
+`;
+export default AboutPage;
